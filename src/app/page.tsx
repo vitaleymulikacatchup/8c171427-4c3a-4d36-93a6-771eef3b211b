@@ -7,6 +7,7 @@ import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import WalletFooter from '@/components/sections/layouts/footer/WalletFooter';
+import { DollarSign } from 'lucide-react';
 
 const theme: SiteTheme = { styleVariant: 'brainRot', colorTemplate: 2, textAnimation: 'highlight' };
 
