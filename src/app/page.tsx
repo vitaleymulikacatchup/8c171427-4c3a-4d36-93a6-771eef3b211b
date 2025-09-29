@@ -19,12 +19,12 @@ export default function Home() {
           logoAlt="BrainRot MEME logo"
           brandName="BrainRot MEME"
           navItems={[
-            { name: '#hero', id: 'hero' },
-            { name: '#about', id: 'about' },
-            { name: '#faq', id: 'faq' },
-            { name: '#how-to-buy', id: 'how-to-buy' },
-            { name: '#tokenomics', id: 'tokenomics' },
-            { name: '#footer', id: 'footer' }
+            { name: 'hero', id: 'hero' },
+            { name: 'about', id: 'about' },
+            { name: 'faq', id: 'faq' },
+            { name: 'how to buy', id: 'how-to-buy' },
+            { name: 'tokenomics', id: 'tokenomics' },
+            { name: 'footer', id: 'footer' }
           ]}
         />
       </div>
@@ -41,7 +41,7 @@ export default function Home() {
         <HowToBuy2D variant="reveal" />
       </div>
       <div id="tokenomics" data-section="tokenomics">
-        <PatternTokenomics title="Tokenomics" description="Understanding the numbers behind BrainRot" kpiItems={[{ value: '50M', description: 'Total Supply', icon: 'DollarSign' }]} />
+        <PatternTokenomics title="Tokenomics" description="Understanding the numbers behind BrainRot" kpiItems={[{ value: '50M', description: 'Total Supply', icon: DollarSign }]} />
       </div>
       <div id="footer" data-section="footer">
         <WalletFooter
