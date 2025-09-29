@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
 import PlayfulHero from '@/components/sections/layouts/hero/BillboardHero';
@@ -8,7 +8,7 @@ import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import WalletFooter from '@/components/sections/layouts/footer/WalletFooter';
 
-const theme: SiteTheme = { styleVariant: 'brainRot', colorTemplate: 2, textAnimation: 'highlight' };
+const theme: SiteTheme = { styleVariant: 'brain_rot', colorTemplate: 2, textAnimation: 'highlight' };
 
 export default function Home() {
   return (
