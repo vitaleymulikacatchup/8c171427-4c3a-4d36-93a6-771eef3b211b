@@ -30,10 +30,13 @@ export default function Home() {
         />
       </div>
       <div id="hero" data-section="hero">
-        <PlayfulHero title="BrainRot Memecoin: A community-powered meme with real upside" subtitle="Join a vibrant, community-owned memecoin with fun, community-driven features" />
+        <PlayfulHero title="Join the Meme Revolution with BrainRot!" subtitle="A community-owned memecoin designed for fun and profit!" />
       </div>
       <div id="about" data-section="about">
-        <SocialsAbout title="About BrainRot" descriptions={["BrainRot is a playful, community-owned memecoin built by and for holders", "Join us on our journey to become the next big thing in crypto!"]} />
+        <SocialsAbout title="About BrainRot" descriptions={[
+          "BrainRot is a playful, community-owned memecoin built by and for holders.",
+          "Join us on our journey to become the next big thing in crypto!"
+        ]} />
       </div>
       <div id="faq" data-section="faq">
         <CentralFAQ items={[{ title: 'What is BrainRot?', content: 'A community-driven memecoin' }, { title: 'How do I buy BrainRot?', content: 'Follow our simple 2-step guide.' }]} />
@@ -42,14 +45,14 @@ export default function Home() {
         <HowToBuy2D variant="reveal" />
       </div>
       <div id="tokenomics" data-section="tokenomics">
-        <PatternTokenomics title="Tokenomics" description="Understand BrainRot's tokenomics: supply mechanics, distribution, and incentives driving long-term value" kpiItems={[{ value: '50M', description: 'Total Supply', icon: DollarSign }]} />
+        <PatternTokenomics title="Tokenomics" description="Discover how BrainRot's tokenomics drive growth and value!" kpiItems={[{ value: '50M', description: 'Total Supply', icon: DollarSign }, { value: '10M', description: 'Market Cap', icon: DollarSign }, { value: '5M', description: 'Liquidity', icon: DollarSign }]} />
       </div>
       <div id="footer" data-section="footer">
         <WalletFooter
           logoText="BrainRot MEME"
           walletAddress="0x1234567890abcdef"
-          copyButtonText="Copy Address"
-          copiedText="Address Copied"
+          copyButtonText="Copy BrainRot Wallet"
+          copiedText="Wallet Address Copied"
           copyrightText="© 2025 BrainRot. All rights reserved."
         />
       </div>
