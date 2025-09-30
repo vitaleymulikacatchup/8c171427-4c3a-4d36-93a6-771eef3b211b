@@ -30,27 +30,27 @@ export default function Home() {
         />
       </div>
       <div id="hero" data-section="hero">
-        <PlayfulHero title="Welcome to BrainRot Memecoin" subtitle="Join the fun of memecoins with community-driven features!" />
+        <PlayfulHero title="BrainRot Memecoin: A community-powered meme with real upside" subtitle="Join a vibrant, community-owned memecoin with fun, community-driven features" />
       </div>
       <div id="about" data-section="about">
-        <SocialsAbout title="About BrainRot" descriptions={["BrainRot is a playful, community-driven memecoin.", "Join us on our journey to become the next big thing in crypto!"]} />
+        <SocialsAbout title="About BrainRot" descriptions={["BrainRot is a playful, community-owned memecoin built by and for holders", "Join us on our journey to become the next big thing in crypto!"]} />
       </div>
       <div id="faq" data-section="faq">
-        <CentralFAQ items={[{ title: 'What is BrainRot?', content: 'It’s a memecoin for the community!' }, { title: 'How do I buy BrainRot?', content: 'Follow the steps in the How-To-Buy section.' }]} />
+        <CentralFAQ items={[{ title: 'What is BrainRot?', content: 'A community-driven memecoin' }, { title: 'How do I buy BrainRot?', content: 'Follow our simple 2-step guide.' }]} />
       </div>
       <div id="how-to-buy" data-section="how-to-buy">
         <HowToBuy2D variant="reveal" />
       </div>
       <div id="tokenomics" data-section="tokenomics">
-        <PatternTokenomics title="Tokenomics" description="Understanding the numbers behind BrainRot" kpiItems={[{ value: '50M', description: 'Total Supply', icon: DollarSign }]} />
+        <PatternTokenomics title="Tokenomics" description="Understand BrainRot's tokenomics: supply mechanics, distribution, and incentives driving long-term value" kpiItems={[{ value: '50M', description: 'Total Supply', icon: DollarSign }]} />
       </div>
       <div id="footer" data-section="footer">
         <WalletFooter
           logoText="BrainRot MEME"
           walletAddress="0x1234567890abcdef"
-          copyButtonText="Copy"
-          copiedText="Copied!"
-          copyrightText="© 2023 BrainRot. All rights reserved."
+          copyButtonText="Copy Address"
+          copiedText="Address Copied"
+          copyrightText="© 2025 BrainRot. All rights reserved."
         />
       </div>
     </SiteThemeProvider>
