@@ -9,14 +9,14 @@ import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternT
 import WalletFooter from '@/components/sections/layouts/footer/WalletFooter';
 import { DollarSign } from 'lucide-react';
 
-const theme: SiteTheme = { styleVariant: 'brainRot', colorTemplate: 2, textAnimation: 'highlight' };
+const theme: SiteTheme = { styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' };
 
 export default function Home() {
   return (
     <SiteThemeProvider theme={theme}>
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-b-1759143260668-ef9ce8a0.jpg"
+          logoSrc="/images/logo.svg"
           logoAlt="BrainRot MEME logo"
           brandName="BrainRot MEME"
           navItems={[
@@ -39,7 +39,7 @@ export default function Home() {
         ]} />
       </div>
       <div id="faq" data-section="faq">
-        <CentralFAQ items={[{ title: 'What is BrainRot?', content: 'A community-driven memecoin' }, { title: 'How do I buy BrainRot?', content: 'Follow our simple 2-step guide.' }]} />
+        <CentralFAQ items={[{ title: 'What is BrainRot?', content: 'A community-driven memecoin' }, { title: 'How do I buy BrainRot?', content: 'Follow our simple 2-step guide.' }, { title: 'What are the benefits of holding BrainRot?', content: 'You can join a vibrant community!' }, { title: 'How is BrainRot different?', content: 'We prioritize community involvement and fun.' }]} />
       </div>
       <div id="how-to-buy" data-section="how-to-buy">
         <HowToBuy2D variant="reveal" />
